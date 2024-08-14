@@ -3,7 +3,7 @@
   <nextMetaDataId>2</nextMetaDataId>
   <name>Delete shit</name>
   <description></description>
-  <revision>2</revision>
+  <revision>3</revision>
   <sourceConnector version="4.5.0">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
@@ -58,7 +58,8 @@ sql1 = dbConn.executeUpdate(&quot;DELETE FROM customers&quot;);
 		if (dbConn) { 
 			dbConn.close();
 			}
-		}</script>
+		}
+// nogmaals test</script>
     </properties>
     <transformer version="4.5.0">
       <elements/>
